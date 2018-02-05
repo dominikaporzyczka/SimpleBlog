@@ -1,21 +1,26 @@
-#content {
-    width: 70%;
-    margin: 0 auto;
+body {
     border: 20px solid #bdc3c7;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    margin: 20px auto;
     font-family: "Source Sans Pro";
-    font-weight: 600;
-    margin-top: 20px;
+}
+
+.article {
+    margin-bottom: 20px;
 }
 
 .date {
     color: #3498db;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 600;
+    letter-spacing: 0.2rem;
 }
 
-.article {
-    margin: 2%;
+.title-of-article {
+    color: #2c3e50;
+    font-size: 2.0rem;
+    text-transform: capitalize;
 }
 
 .first-paragraph {
@@ -23,12 +28,8 @@
     padding-left: 5px;
 }
 
-.title-of-article {
-    color: #2c3e50;
-}
-
-.line {
-    margin: 2%;
+hr {
+    border: 0;
     height: 1px;
-    background-color: #bdc3c7;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
